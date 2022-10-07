@@ -1,4 +1,4 @@
-public class RevserseString {
+public class palindrome {
     public static void main(String[] args) {
         String m = "mounik";
 
@@ -9,7 +9,10 @@ public class RevserseString {
         for (int i=charArray.length-1;i>=0;i--){
             rev=rev+charArray[i];
         }
-        System.out.println(rev);
-      }
+        if(m.equals(rev)){
+            System.out.println("palandram");
+        }else {
+            System.out.println("not palandram");
+        }
     }
-
+}
